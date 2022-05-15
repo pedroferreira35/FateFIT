@@ -1,11 +1,32 @@
-*{
-  box-sizing: border-box;
-  margin: 0;
-  height: 100%;
-  overflow: hidden;
-  white-space: nowrap;
-  scrollbar-width: none;
+body {
   background-color: rgb(63, 63, 63);
+}
+
+h1 {
+  color: rgb(0, 124, 48);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#btnCadastrar{
+  background-color: #09ad5b;
+  border: none;
+  width: 400px;
+  border-radius: 8px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold
+}
+
+p {
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 25%;
 }
 
 .linha{
@@ -17,69 +38,3 @@
   width: 50%;
 }
 
-.banner{
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right;
-  height: 610px;
-  color: rgb(244, 236, 236);
-  display: flex;
-  justify-content: right;
-  align-items: center;
-  width: 100%;
-}
-
-.pagina-inicial-fateFit{
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left;
-  height: 50px;
-  color: rgb(38, 214, 90);
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin-top: 1em;
-}
-
-.login{
-  width: 150%;
-  color: rgb(0, 0, 0);
-  margin: 0 auto;
-  width: 50%;
-}
-
-.senha{
-  width: 150%;
-}
-
-.esqueci-minha-senha{
-  width: 150%;
-}
-
-.button{
-  margin:  auto;
-  width: 25%;
-}
-
-
-form div + div {
-
-}
-
-label{
-  display: inline-block;
-  width: 90px;
-  text-align: right;
-}
-
-
-@media(max-width:800px){
-
-  .pagina-inicial-fateFit{
-      width: 50%;
-    }
-
-    .banner{
-      width: 50%;
-  }
-}
