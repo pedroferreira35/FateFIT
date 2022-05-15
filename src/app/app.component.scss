@@ -8,7 +8,7 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#btnCadastrar{
+#btnCadastrar {
   background-color: #09ad5b;
   border: none;
   width: 400px;
@@ -29,12 +29,15 @@ p {
   margin-left: 25%;
 }
 
-.linha{
+.linha {
   display: flex;
   flex-flow: row wrap;
 }
 
-.coluna-50{
+.coluna-50 {
   width: 50%;
 }
 
+input {
+  width: 50%;
+}

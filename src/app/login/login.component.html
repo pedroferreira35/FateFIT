@@ -2,46 +2,40 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title></title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 
-<form action="/pagina-processa-dados-do-form" method="post">
 <body>
-  <div class="linha">
-    <div class="coluna-50">
-      <section class="login">
-        <div class="pagina-inicial-login">
-          <div class="secundario">
-            <h1 class="pagina-inicial-fateFit">FateFit</h1>
-            <div>
-              <label for="login">LOGIN</label>
-              <input type="text" id="login">
+    <div class="container">
+        <div class="formulario">
+            <h1>FateFit</h1>
+            <div class="inputControl">
+                <label for="txtLogin"> LOGIN </label>
+                <input type="email" id="txtLogin" placeholder="Insira seu email">
             </div>
-            <div>
-              <label for="senha">SENHA</label>
-              <input type="password" id="senha">
+            <div class="inputControl">
+                <label for="txtSenha"> SENHA </label>
+                <input type="password" id="txtSenha" placeholder="Insira sua senha">
             </div>
-            <div class="button">
-              <button class="btn" id="btnLogin" type="submit">Entrar</button>
-            </div>
-            <h2 class="esqueci-minha-senha">ESQUECI MINHA SENHA</h2>
-          </div>
-        </div>
-      </section>
-    </div>
-    <div class="coluna-50">
-      <section class="banner">
-        <div class="principal">
-        <img src="assets/imagens/imagem-login.jpg">
-        </div>
-      </section>
-    </div>
-  </div>
 
+            <div>
+                    <a href="google.com">Esqueci minha senha</a>
+            </div>
+
+            <div class="inputControl">
+                <button type="submit" id="btnLogin">ENTRAR</button>
+            </div>
+
+        </div>
+
+
+        <div class="imagem">
+            <img src="assets/imagens/imagem-login.jpg" alt="FateFit Logo" width="100%" height="100%">
+        </div>
+    </div>
 </body>
 
-</form>
 </html>
