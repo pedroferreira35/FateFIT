@@ -1,0 +1,63 @@
+html,body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(63, 63, 63);
+  display: flex;
+ }
+
+.dados-pessoais{
+  height: 100vh;
+  width: 50vw;
+  flex-direction: column;
+}
+
+.dados-academia{
+  height: 100vh;
+  width: 70vw;
+  flex-direction: column;
+}
+
+h1{
+  color: green;
+  font-size: 3rem;
+  height: 5%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#btnCadastrar {
+    margin-top: 5%;
+    background-color: green;
+    border: none;
+    width: 96%;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+  }
+
+  .inputControl{
+    align-items: center;
+    flex-direction: column;
+    margin: 15%;
+    width: 100%;
+  }
+
+p {
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 25%;
+}
+
+input {
+  width: 50%;
+}
