@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="user-register.component.scss">
+</head>
+
+<body>
+    <div class="container">
+        <h1>CADASTRO</h1>
+        
+        <form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+            <div class="generalController">
+                <div class="formController1">
+                    <div class="labelController1">
+                        <label for="txtNome"> NOME: </label>
+                        <label for="txtEmail"> E-MAIL: </label>
+                        <label for="txtAddress"> ENDEREÇO: </label>
+                        <label for="txtCll"> CELULAR: </label>
+                    </div>
+                    <div class="inputController1">
+                        <input formControlName="name" type="text" id="txtNome" placeholder="Insira o nome do aluno">
+                        <input formControlName="email" type="email" id="txtEmail" placeholder="Insira o email do aluno">
+                        <input formControlName="address" type="text" id="txtAddress" placeholder="Insira o endereço do aluno">
+                        <input formControlName="phone" type="tel" id="txtCll" placeholder="(xx) xxxxx-xxxx">
+                    </div>
+                    <div class="formController2">
+                        <div class="labelController2">
+                            <label for="txtDDT"> DIAS DE TREINO NA SEMANA: </label>
+                            <label for="txtEmail"> OJBETIVO: </label>
+                        </div>
+                        <div class="inputController2">
+                            <input type="text" id="txtDDT" placeholder="Insira os dias de treino do aluno">       
+                            <input type="text" id="txtObjetivo" placeholder="Insira o ojbetivo do aluno">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button id="btnCadastrar" type="submit"> CADASTRAR </button>
+        </form>
+    </div> 
+    
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.container {
+    background-color: rgb(63, 63, 63);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.container>h1 {
+    margin: 50px;
+    font-size: 40px;
+}
+
+.week {
+    display: flex;
+    width: 95%;
+}
+
+.day {
+    width: 20%;
+    padding: 0px 15px 0px 15px;
+    border: 1px solid rgb(116, 235, 105);
+}
+
+.day>h1 {
+    margin: 10px 0px 40px 0px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.treino {
+    margin: 10px 0px 15px 0px;
+}
+
+.treino>p {
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+.time {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.btnConfirm {
+    width: 40px;
+    height: 40px;
+}
+
+input[type='time'] {
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    padding-left: 5px;
+    font-size: 18px;
+}
+
+p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    align-self: center;
+}
+
+h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: green;
+    font-size: 20px;
+    align-self: center;
+}
+
+i{
+    color: green;
+}
+

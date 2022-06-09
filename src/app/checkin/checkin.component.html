@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="checkin.component.scss">
+    <title>Week day</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Check-In </h1>
+        <div class="week">
+            <div class="day" data-day="1">
+                <h1>Segunda</h1>
+                <div class="treino">
+                    <p>{{workout.seg}}</p>
+                </div>
+            </div>
+            <div class="day" data-day="2">
+                <h1>Terça</h1>
+                <div class="treino">
+                    <p>{{workout.ter}}</p>
+                </div>
+            </div>
+            <div class="day" data-day="3">
+                <h1>Quarta</h1>
+                <div class="treino">
+                    <p>{{workout.qua}}</p>
+                </div>
+            </div>
+            <div class="day" data-day="4">
+                <h1>Quinta</h1>
+                <div class="treino">
+                    <p>{{workout.qui}}</p>
+                </div>
+            </div>
+            <div class="day" data-day="5">
+                <h1>Sexta</h1>
+                <div class="treino">
+                    <p>{{workout.sex}}</p>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <script src="checkin.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Aluno</title>
+    <link rel="stylesheet" type="text/css" href="profile.component.scss">
+</head>
+
+<body>
+    <div class="container">
+        <h1> MEU PERFIL </h1>
+
+        <div class="generalController">
+            <div class="dataController">
+
+                <div class="circlePhoto"></div>
+                <label for="txtNome"> Nome: {{user.name}}</label>
+                <label for="txtNome"> Email: {{user.email}} </label>
+                <label for="txtNome"> Telefone: {{user.phone}} </label>
+                <label for="txtNome"> Endereço: {{user.address}} </label>
+
+            </div>
+
+            <div class="linkController">
+                <a for="txtTreino" routerLink="/checkin" routerLinkActive="active"> CHECK-IN  </a>
+                    <a for="txtTreino" routerLink="/change-password" routerLinkActive="active"> ALTERAR SENHA </a>
+                    <a for="txtTreino" routerLink="/help" routerLinkActive="active"> AJUDA </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
